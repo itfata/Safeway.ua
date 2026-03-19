@@ -542,3 +542,10 @@ footer {
   }
 }
 
+
+
+@media (max-width: 720px) {
+  header {
+    position: static;
+  }
+}
