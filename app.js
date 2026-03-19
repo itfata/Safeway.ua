@@ -8,7 +8,7 @@ const translations = {
     hero_badge: "Secure transport in Ukraine & EU",
     hero_title: "SafeWay UA — secure transportation and logistical support",
     hero_text:
-      "We provide safe, reliable travel across Ukraine and to/from the European Union. Fully operational and ready to support missions immediately.",
+      "We provide safe, reliable travel across Ukraine and to/from the European Union. We work efficiently to handle your requests without delay.",
     hero_cta_primary: "Contact the company",
     hero_cta_secondary: "View pricing",
     hero_card_title: "Mission-ready logistics",
