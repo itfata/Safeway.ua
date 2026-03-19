@@ -6,7 +6,7 @@ const translations = {
     nav_prices: "Pricing",
     nav_contact: "Contact",
     hero_badge: "Secure transport in Ukraine & EU",
-    hero_title: "SafeWay UA — secure transportation and logistical support",
+    hero_title: "SafeWayUA — secure transportation and logistical support",
     hero_text:
       "We provide safe, reliable travel across Ukraine and to/from the European Union. We work efficiently to handle your requests without delay.",
     hero_cta_primary: "Contact the company",
@@ -30,7 +30,7 @@ const translations = {
     service_3_title: "High‑risk travel",
     service_3_text:
       "Frontline‑adjacent routes with protective equipment and optional combat medic.",
-    about_title: "About SafeWay UA",
+    about_title: "About SafeWayUA",
     about_lead:
       "Since the start of Russia’s full‑scale invasion, we have worked in frontline and high‑risk areas, supporting international medical missions, private companies across multiple sectors, journalists, NGOs, and governmental delegations.",
     about_point_1:
@@ -48,7 +48,7 @@ const translations = {
       "Secure travel to frontline and high‑risk locations with protective equipment and optional combat medic.",
     mission_title: "Operational context",
     mission_body_html:
-      "<p>SAFE WAY UA is on the final stage of establishing. We are dedicated to safe, reliable travel across Ukraine and to/from the European Union. While we prepare for our official company launch, we are already fully operational and ready to assist you or your organization immediately.</p><p>Since the start of Russia’s full‑scale invasion, we have been actively working in frontline and high‑risk areas of Ukraine. Our team has successfully supported international medical missions, foreign private companies across multiple sectors, journalists, NGOs, and governmental delegations.</p><p>We recognize the critical nature of your missions and are structured to deliver dependable support under any conditions — including in close proximity to active conflict zones.</p>",
+      "<p></p><p></p><p>We recognize the critical nature of your missions and are structured to deliver dependable support under any conditions — including in close proximity to active conflict zones.</p>",
     mission_services_title: "Our services include",
     mission_service_1: "Door‑to‑door transfers between EU countries and Ukraine (in either direction).",
     mission_service_2: "Comprehensive trip support throughout Ukraine.",
@@ -77,8 +77,8 @@ const translations = {
     footer_follow_label: "Instagram",
     footer_follow_text: "@safewayua",
     modal_title: "Choose a channel",
-    modal_text: "Message SafeWay UA via Telegram or WhatsApp.",
-    modal_telegram: "Telegram",
+    modal_text: "Message SafeWayUA via Signal or WhatsApp.",
+    modal_telegram: "Signal",
     modal_whatsapp: "WhatsApp",
     modal_close: "Close",
     pricing_title: "Pricing",
@@ -122,7 +122,7 @@ const translations = {
     nav_prices: "Прайс",
     nav_contact: "Контакт",
     hero_badge: "Безпечні перевезення Україна та ЄС",
-    hero_title: "SafeWay UA — безпечні перевезення та логістична підтримка",
+    hero_title: "SafeWayUA — безпечні перевезення та логістична підтримка",
     hero_text:
       "Забезпечуємо безпечні та надійні поїздки Україною і до/з ЄС. Працюємо оперативно та підтримуємо ваші запити без зайвих затримок.",
     hero_cta_primary: "Зв'язатися",
@@ -146,7 +146,7 @@ const translations = {
     service_3_title: "Високоризикові поїздки",
     service_3_text:
       "Поїздки поблизу фронту з захисним спорядженням і опційним бойовим медиком.",
-    about_title: "Про SafeWay UA",
+    about_title: "Про SafeWayUA",
     about_lead:
       "З початку повномасштабного вторгнення ми працюємо у прифронтових та високоризикових зонах, підтримуючи міжнародні медичні місії, приватні компанії різних секторів, журналістів, НГО та державні делегації.",
     about_point_1:
@@ -191,8 +191,8 @@ const translations = {
     footer_follow_label: "Instagram",
     footer_follow_text: "@safewayua",
     modal_title: "Оберіть канал",
-    modal_text: "Напишіть SafeWay UA у Telegram або WhatsApp.",
-    modal_telegram: "Telegram",
+    modal_text: "Напишіть SafeWayUA у Signal або WhatsApp.",
+    modal_telegram: "Signal",
     modal_whatsapp: "WhatsApp",
     modal_close: "Закрити",
     pricing_title: "Прайс",
@@ -232,7 +232,7 @@ const translations = {
 };
 
 const contactLinks = {
-  telegram: "https://t.me/+380959142234",
+  signal: "https://signal.me/#p/+380959142234",
   whatsapp: "https://wa.me/380959142234",
 };
 
@@ -272,9 +272,9 @@ const initContactModal = () => {
   const openers = document.querySelectorAll("[data-open-modal]");
   const closeBtn = modal.querySelector("[data-close-modal]");
 
-  const telegramLink = modal.querySelector("[data-telegram]");
+  const signalLink = modal.querySelector("[data-signal]");
   const whatsappLink = modal.querySelector("[data-whatsapp]");
-  if (telegramLink) telegramLink.href = contactLinks.telegram;
+  if (signalLink) signalLink.href = contactLinks.signal;
   if (whatsappLink) whatsappLink.href = contactLinks.whatsapp;
 
   openers.forEach((btn) =>
