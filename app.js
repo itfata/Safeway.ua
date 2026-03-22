@@ -11,7 +11,6 @@ const translations = {
       "We provide safe, reliable travel across Ukraine and to/from the European Union. We work efficiently to handle your requests without delay.",
     hero_cta_primary: "Contact the company",
     hero_cta_secondary: "View pricing",
-    hero_card_title: "Mission-ready logistics",
     hero_card_text:
       "If you're planning a trip to Ukraine — as a company, journalist, NGO, or delegation — and want a smooth, worry-free experience, we provide full support. From airport pickup to daily logistics, with proven safety protocols and professional assistance at every stage. We are here to take care of everything - ensuring your stay in Ukraine is SAFE, secure, and comfortable.",
     meta_1_title: "EU ↔ Ukraine",
@@ -33,29 +32,12 @@ const translations = {
     about_title: "About SafeWayUA",
     about_lead:
       "SAFEWAYUA is a professional transportation and logistical support service. We are dedicated to safe, reliable travel across Ukraine and to/from the European Union.Since the start of Russia's full-scale invasion, we have been actively working in high-risk areas of Ukraine. Our team has successfully supported international medical missions, foreign private companies across multiple sectors, journalists, NGOS, and governmental delegations.We operate where experience, responsibility, and security matter most. SAFEWAYUA is a trusted partner for those working in complex and high-risk environments, delivering professional logistical support without compromise.",
-    about_point_1:
-      "We provide secure transportation, on‑site coordination, and professional interpretation services for medical professionals, business representatives, and institutional partners.",
-    about_point_2:
-      "Our work includes cooperation with Ukrainian authorities and foreign governmental bodies.",
-    about_point_3:
-      "We are structured to deliver dependable support under any conditions — including close proximity to active conflict zones.",
-    coverage_title: "Included in the service",
-    coverage_text:
-      "Modern passenger van for 4–7 persons and an English‑speaking driver with Tactical Combat Casualty Care (TCCC) certification.",
-    coverage_list_1: "Assistance with accommodation and local logistics.",
-    coverage_list_2: "Qualified interpreter for meetings and negotiations (upon request).",
-    coverage_list_3:
-      "Secure travel to frontline and high‑risk locations with protective equipment and optional combat medic.",
     mission_title: "Operational context",
-    mission_services_title: "Our services include",
-    mission_service_1: "Door‑to‑door transfers between EU countries and Ukraine (in either direction).",
+        mission_service_1: "Door‑to‑door transfers between EU countries and Ukraine (in either direction).",
     mission_service_2: "Comprehensive trip support throughout Ukraine.",
-    mission_service_3: "Modern, comfortable passenger van (capacity 4–7 persons).",
-    mission_service_4:
+        mission_service_4:
       "English‑speaking professional driver with Tactical Combat Casualty Care (TCCC) certification.",
-    mission_service_5: "Assistance with accommodation and local logistics.",
-    mission_service_6: "Qualified interpreter for meetings and negotiations (upon request).",
-    mission_service_7:
+            mission_service_7:
       "Secure travel to frontline and high‑risk locations — full protective equipment provided (body armor, helmets, individual first‑aid kits).",
     mission_service_8: "Additional combat medic in the crew when required.",
     mission_service_9:
@@ -125,7 +107,6 @@ const translations = {
       "Забезпечуємо безпечні та надійні поїздки Україною і до/з ЄС. Працюємо оперативно та підтримуємо ваші запити без зайвих затримок.",
     hero_cta_primary: "Зв'язатися",
     hero_cta_secondary: "Переглянути прайс",
-    hero_card_title: "Під місію",
     hero_card_text:
       "Якщо ви плануєте поїздку в Україну — як компанія, журналіст, представник НУО чи делегація — і хочете отримати зручний та безтурботний досвід, ми забезпечимо повний супровід. Від зустрічі в аеропорту до щоденної логістики — із перевіреними протоколами безпеки та професійною підтримкою на кожному етапі.Ми подбаємо про все, щоб ваше перебування в Україні було БЕЗПЕЧНИМ, надійним і комфортним.",
     meta_1_title: "ЄС ↔ Україна",
